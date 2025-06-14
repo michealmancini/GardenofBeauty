@@ -39,6 +39,12 @@ body {
   width: 250px;
 }
 
+#form{
+  margin: 0 auto; /* Centers the form horizontally */
+  width:35% /* specify a width for the form */; /* Important: Margin auto requires a defined width to work correctly */
+}
+
+
     </style>
 </head>
 <body>
@@ -56,7 +62,7 @@ body {
     <div>
     <h2 style="text-align: center"; >Send Us an E-mail:</h2>
 
-    <form align="center" action="https://formsubmit.co/micheal_mancini@yahoo.com" method="POST">
+    <form id="form" action="https://formsubmit.co/micheal_mancini@yahoo.com" method="POST">
       <h3>Name</h3>
       <input type="text" name="name" required style="height: 40px; width: 625px;" >
       <br>
